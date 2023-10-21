@@ -1,11 +1,7 @@
-import './index.css'
+import './index.css';
 
 const App = () => {
-  return (
-    <>
-      <div className='text-3xl font-bold underline mt-10'>Study Polish</div>
-    </>
-  )
+  return <h1 className='text-3xl font-bold'>Study Polish</h1>
 }
 
 export default App
