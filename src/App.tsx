@@ -1,7 +1,11 @@
-import React from 'react';
+import './index.css'
 
 const App = () => {
-  return <h1>Study Polish</h1>
+  return (
+    <>
+      <div className='text-3xl font-bold underline mt-10'>Study Polish</div>
+    </>
+  )
 }
 
 export default App
