@@ -1,7 +1,12 @@
 import './index.css';
+import AppRoutes from '@components/AppRoutes';
 
 const App = () => {
-  return <h1 className='text-3xl font-bold'>Study Polish</h1>
+  return (
+    <>
+      <AppRoutes />
+    </>
+  )
 }
 
 export default App
